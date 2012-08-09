@@ -1,0 +1,14 @@
+# **pluto_perl** #
+
+*my personal toolbox of perl scripts*
+
+## file_lister.pl ##
+
+i recently downloaded a library of files and wanted an easy way to scrap the file names into a document for a table of contents. this script does just the trick usage is:
+
+	perl <path to>file_lister <path to input root folder> <path to output file>
+
+example:
+
+	perl file_lister "c:\users\chris" "c:\output.txt"
+
